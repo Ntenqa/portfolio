@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(ten.jpeg);
+    background-size: cover;
+    background-position:center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+.user-icon{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li{
+    text-decoration:none;
+    color: #fff;
+    font-size: 17px;
+    padding:5px 2px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+nav ul li a:hover{
+    color: #be156f;
+    border-bottom:1px solid #be156f ;
+    transition: .3s ease all;
+}
+.content{
+    max-width: 600px;
+    color: #fff;
+    margin-top: 15%;
+}
+h1{
+    font-size:58px;
+    line-height:70px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+p{
+    font-size: 25px;
+    line-height: 30px;
+}
+span{
+    color: crimson;
+}
+.btn-box{
+    margin-top: 20px;
+}
+button{
+    width:150px;
+    border: 1px solid crimson;
+    color:#fff;
+    padding: 10px;
+    margin-right:10px ;
+    border-radius: 25px;
+    cursor: pointer;
+    background:#be156f;
+}
+
+button:hover{
+    width:150px;
+    border: 1px solid crimson;
+    color:#fff;
+    padding: 10px;
+    margin-right:10px ;
+    border-radius: 25px;
+    cursor: pointer;
+    background:#626262;
+}
+
+#About.html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: crimson;
+}
+
+.Picture{
+    width:130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top:50px ;
+    left: 500px;
+
+}
+
+.about-content{
+    text-align:  center;
+    color: #fff;
+}
+.about-contact{
+    background-color:darkgray;
+    width: 150px;
+    border: 1px solid crimson;
+    padding: 10px;
+    margin-right:10px ;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+/* body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;} */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+* {box-sizing:border-box}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 80%; background-color: #b9498c;} 
+.css {width: 90%; background-color: grey;} 
+.js {width: 2%; background-color: pink;} 
+.python {width: 60%; background-color: aquamarine;} 
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bgimg {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }

@@ -11,28 +11,41 @@
     <div class="header">
         <div class="container">
             <div class="navbar">
-                <img src="Khanyiswa.jpg"class="logo">
+                <img src="./profile1.jpeg" class="user-icon" alt="profile 1">
                 <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Contact details</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="About.html">About me</a></li>
+                            <li><a href="Resume.html">Resume</a></li>
+                            <li><a href="Contact.html">Contact details</a></li>
+                        </ul>
+                
                 </nav>
-                <img src="./profile1.jpeg" class="user-icon" alt="Profile image 1">
             </div>
             <div class="content">
+                <div>
                 <h1>KHANYISWA NTENQA</h1>
-                <P><span>Website developer</span> and <span>freelancer</span></P>
+                <h2>An aspiring <span class="typed">WEBSITE DEVELOPER</span></h2>
                 <div class="btn-box">
-                    <button type="button">SKILLS</button>
-                    <button type="button" class="btn">EDUCATION</button>
+                   <a href="skills.html"><button  type="button" class="btn">SKILLS</button> </a> 
+                    <a href="projects.html"><button type="button" class="btn">Projects</button></a>
+                </div>   
+
                 </div>
+
             </div>
         </div>
     </div>
 
     </div>
+    <script src="./js/typed.js"></script>
+    <script>
+        var typed = new Typed('.typed',{
+            strings:['director','FREELANCER','DESIGNER',],
+            typeSpeed:60,
+            backSpeed:60,
+            loop:true,
+        });
+    </script>
 </body>
 </html>
